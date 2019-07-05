@@ -1,0 +1,44 @@
+html {
+  background: rgb(235, 199, 174);
+}
+
+#navbar {
+  background: seashell;
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  justify-content: space-evenly;
+  padding-top: 5px;
+  padding-bottom: 12px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 20pt;
+}
+
+.wrapper {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.weekswrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.weeks {
+  background: seashell;
+  width: 30%;
+  padding: 1%;
+  border: solid;
+}
